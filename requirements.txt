@@ -1,0 +1,2 @@
+GDAL @ file:///home/conda/feedstock_root/build_artifacts/gdal-split_1679694098864/work/build/swig/python
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1675642519433/work
