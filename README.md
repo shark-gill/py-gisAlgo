@@ -23,6 +23,11 @@ $ conda update --all
 $ conda install shapely --channel conda-forge
 ```
 
+- geopandas 0.12.2
+```bash
+$ conda install --channel conda-forge geopandas
+```
+
 ## Source
 > 1) GIS Algorithm DOI: https://github.com/gisalgsf
 > 2) GDAL Install DOI: https://opensourceoptions.com/blog/how-to-install-gdal-with-anaconda/
