@@ -21,3 +21,5 @@ $ pip install -r requirements.txt # 패키지 설치
 ## Source
 > 1) GIS Algorithm DOI: https://github.com/gisalgsf
 > 2) GDAL Install DOI: https://opensourceoptions.com/blog/how-to-install-gdal-with-anaconda/
+> 3) [BASE] GIS Algorithm DOI: https://geo-python-site.readthedocs.io/en/latest/
+> 4) Python을 활용한 빅데이터와 데이터 과학 DOI: http://bigdata.dongguk.ac.kr/lectures/datascience/_book/index.html
