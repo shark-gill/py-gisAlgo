@@ -1,4 +1,6 @@
 #%%
+# Lesson1 - Geometric Objects
+
 # 01_Abstract
 """
 Python을 활용한 공간분석 라이브러리
@@ -232,3 +234,4 @@ a valid polygon. This can be really useful information when trying to find topol
 valid = multi_poly.is_valid
 
 print("Is polygon valid?: ", valid)
+# %%
