@@ -244,5 +244,32 @@ def Nearest(row, geom_union, df1, df2, geom1_col='geometry', geom2_col='geometry
     print(type(value))
     return value
 
-Nearest()
 # %%
+import geopandas as gpd
+import matplotlib.pyplot as plt
+from fiona.drvsupport import supported_drivers
+
+supported_drivers['KML'] = 'rw'
+
+#%%
+
+fp1 = "/home/lhshrk/py-gisAlgo/data/PKS_suuralue.kml"
+fp2 = "/home/lhshrk/py-gisAlgo/data/addresses.shp"
+
+df1 = gpd.read_file(fp1, driver='KML')
+df2 = gpd.read_file(fp2)
+
+print(df1.head())
+print(df2.head())
+# %%
+unary_union = df2.unary_union # Point -> MultiPoint
+print(unary_union)
+
+#%%
+df1['cetroid'] = df1.centroid
+df1.head()
+
+# %%
+df1['nearest_id'] = df1.apply(Nearest, geom_union=unary_union, df1=df1, df2=df2, geom1_col='centroid', src_column='id', axis=1)
+
+df1.head(10)

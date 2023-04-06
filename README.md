@@ -33,7 +33,7 @@ $ conda install --channel conda-forge geopandas
 $ pip install geopy
 ```
 
-## Source
+## Reference
 > 1) GIS Algorithm DOI: https://github.com/gisalgsf
 > 2) GDAL Install DOI: https://opensourceoptions.com/blog/how-to-install-gdal-with-anaconda/
 > 3) [BASE] GIS Algorithm DOI: https://geo-python-site.readthedocs.io/en/latest/
