@@ -270,6 +270,7 @@ df1['cetroid'] = df1.centroid
 df1.head()
 
 # %%
-df1['nearest_id'] = df1.apply(Nearest, geom_union=unary_union, df1=df1, df2=df2, geom1_col='centroid', src_column='id', axis=1)
+df1['nearest_id'] = df1.apply(Nearest, geom_union=unary_union, df1=df1, df2=df2, geom1_col='cetroid', src_column='geometry', axis=1)
 
 df1.head(10)
+# %%
