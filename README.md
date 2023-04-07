@@ -19,7 +19,8 @@ $ pip install -r requirements.txt # 패키지 설치
 ```
 - shapely 2.0.1
 ```bash
-$ conda update --all
+$ # conda update --all
+$ conda update -n base -c defaults conda
 $ conda install shapely --channel conda-forge
 ```
 
@@ -51,6 +52,10 @@ $ google-chrome # 터미널에서 크롬 실행!
 ```bash
 $ conda install --channel conda-forge pysal
 ```
+- osxm 1.3.0
+```bash
+$ conda install -c conda-forge osmnx
+```
 
 ## Reference
 > 1) GIS Algorithm DOI: https://github.com/gisalgsf
@@ -59,5 +64,3 @@ $ conda install --channel conda-forge pysal
 > 4) [HARD] GIS Algorithm DOI: https://automating-gis-processes.github.io/2017/lessons/L7/network-analysis.html
 > 4) Python을 활용한 빅데이터와 데이터 과학 DOI: http://bigdata.dongguk.ac.kr/lectures/datascience/_book/index.html
 > 5) Python 모듈을 활용한 공간 분석 DOI: https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AA%A8%EB%93%88%ED%99%9C%EC%9A%A9-%EA%B3%B5%EA%B0%84%EB%B6%84%EC%84%9D#curriculum
-
-방향, 노드의 유형(교차로, 구간, 시설물.....)
