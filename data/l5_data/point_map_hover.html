@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="146204dd-23cb-4f5b-9372-d2894f458104" data-root-id="p1190" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1404">
+      {"ca017ae1-e90f-40a1-bb67-40cfaf78fe31":{"version":"3.1.0","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p1190","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1191"},"y_range":{"type":"object","name":"DataRange1d","id":"p1192"},"x_scale":{"type":"object","name":"LinearScale","id":"p1204"},"y_scale":{"type":"object","name":"LinearScale","id":"p1206"},"title":{"type":"object","name":"Title","id":"p1193","attributes":{"text":"A map of address points from a Shapefile"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1243","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1183","attributes":{"selected":{"type":"object","name":"Selection","id":"p1184","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1185"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAA="},"shape":[35],"dtype":"int32","order":"little"}],["address",{"type":"ndarray","array":["Kampinkuja 1, 00100 Helsinki, Finland","Kaivokatu 8, 00101 Helsinki, Finland","Hermanstads strandsv\u00e4g 1, 00580 Helsingfors, Finland","It\u00e4v\u00e4yl\u00e4, 00900 Helsinki, Finland","Tyynenmerenkatu 9, 00220 Helsinki, Finland","Kontulantie 18, 00940 Helsinki, Finland","It\u00e4v\u00e4yl\u00e4, 00800 Helsinki, Finland","Tapulikaupungintie 3, 00750 Helsinki, Finland","Sompionpolku 2, 00730 Helsinki, Finland","Atomitie 5, 00370 Helsinki, Finland","Rautatientori 1, 00100 Helsinki, Finland","Kuparitie 8, 00440 Helsinki, Finland","Trumstigen 8, 00420 Helsingfors, Finland","Kullatorpsv\u00e4gen 1, 00620 Helsingfors, Finland","Malminkaari 15, 00700 Helsinki, Finland","Kyl\u00e4tie 23, 00320 Helsinki, Finland","Malminkartanontie 17, 00410 Helsinki, Finland","\u00c5ggelby torg 2b, 00640 Helsingfors, Finland","Bang\u00e5rdsv\u00e4gen 6, 00101 Helsingfors, Finland","Pit\u00e4j\u00e4nm\u00e4entie 15, 00370 Helsinki, Finland","Eskolantie 2, 00720 Helsinki, Finland","Tattariharjuntie, 00700 Helsinki, Finland","Tallinnanaukio 1, 00930 Helsinki, Finland","Tyynylaavantie 7, 00980 Helsinki, Finland","Varvasm\u00e4enkuja, 00920 Helsinki, Finland","Mellungsbackastr\u00e5ket 6, 00970 Helsingfors, Finland","Vasastigen 2, 00101 Helsingfors, Finland","Hiiht\u00e4j\u00e4ntie 2, 00810 Helsinki, Finland","Ukko-Pekan porras, 00570 Helsinki, Finland","Siltasaarenkatu 16, 00530 Helsinki, Finland","Urho Kekkosen katu 1, 00100 Helsinki, Finland","Gr\u00e4sviksgatan 17, 00101 Helsingfors, Finland","Stillahavsgatan 3, 00220 Helsingfors, Finland","Vilhelmsgatan 4, 00101 Helsingfors, Finland","Torisilta, 00980 Helsinki, Finland"],"shape":[35],"dtype":"object","order":"little"}],["id",{"type":"ndarray","array":{"type":"bytes","data":"6QMAAOoDAADrAwAA7AMAAO0DAADuAwAA7wMAAPADAADxAwAA8gMAAPMDAAD0AwAA9QMAAPYDAAD3AwAA+AMAAPkDAAD6AwAA+wMAAPwDAAD9AwAA/gMAAP8DAAAABAAAAQQAAAIEAAADBAAABAQAAAUEAAAGBAAABwQAAAgEAAAJBAAACgQAAAsEAAA="},"shape":[35],"dtype":"int32","order":"little"}],["x",{"type":"ndarray","array":{"type":"bytes","data":"kTevoB/uOEBP0lfrH/E4QOoYoek2+jhA9OeR9YoXOUCExCxq5us4QMTVXMnpFDlAoZ3TLNAKOUDpZRTLLQk5QPoO2ZtzBzlAdbIvNDLfOEAoJ9pVSPE4QAYEhCBR4jhA/RAbLJzgOEDdItUcxfI4QNKOG343AzlABVPNrKXkOEAGu2Hbotw4QCf9GM6Q9zhAbGv6ovPuOEDkh0ojZtw4QAol3eBV/jhACcbBpWMKOUBGUhxR6xM5QKrj53V6JDlA6Ek+G14TOUCZyuw9phs5QNFTiVf+9ThAGPQ50nQHOUDTznpCwAE5QM32MpsR8zhAEuozsQrvOECFkJhFzew4QEti/yvh6zhA/Ct12mTyOEB5R3zd2B45QA=="},"shape":[35],"dtype":"float64","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"WAPvP40VTkDOF3svvhVOQBZPh1/7F05A7Y4xHHQbTkCJYk3AChROQKWRKuUQHk5AeXNdnQgaTkBiFjXzPyNOQD12vG62IU5AvvjsyngcTkBfPv536RVOQCf0n9qFHU5AyVpDqb0eTkDCWbZ7XhxOQPG/phgxIE5A5xJYSuAbTkABAjFk0B9OQDrJVpdTHU5A0xedh24ZTkC4LMt8rBxOQNXUDW8xH05Au+B440kfTkA4SrlW1hpOQA5LubGPGk5AUoGTbeAcTkCEXbmDfR5OQCreEsoMGE5Aue5Sj9kYTkBPsLWtHBhOQEctgyD2Fk5A+WXVjLEVTkCnZRDEHhVOQFpnfF9cFE5AI+pPLAEWTkCtVGF9TRpOQA=="},"shape":[35],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1244","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1245"}}},"glyph":{"type":"object","name":"Circle","id":"p1240","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"red"},"fill_color":{"type":"value","value":"red"},"hatch_color":{"type":"value","value":"red"}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p1241","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"red"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"red"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p1242","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"red"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"red"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1197","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1222"},{"type":"object","name":"WheelZoomTool","id":"p1223"},{"type":"object","name":"BoxZoomTool","id":"p1224","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1225","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1226"},{"type":"object","name":"ResetTool","id":"p1227"},{"type":"object","name":"HelpTool","id":"p1228"},{"type":"object","name":"HoverTool","id":"p1318","attributes":{"renderers":"auto","tooltips":[["Address of the point","@address"]]}},{"type":"object","name":"HoverTool","id":"p1333","attributes":{"renderers":"auto","tooltips":[["Address of the point","@address"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1215","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1218","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1216"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1217"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1208","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1211","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1209"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1210"}}}],"center":[{"type":"object","name":"Grid","id":"p1214","attributes":{"axis":{"id":"p1208"}}},{"type":"object","name":"Grid","id":"p1221","attributes":{"dimension":1,"axis":{"id":"p1215"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1404').textContent;
+              const render_items = [{"docid":"ca017ae1-e90f-40a1-bb67-40cfaf78fe31","roots":{"p1190":"146204dd-23cb-4f5b-9372-d2894f458104"},"root_ids":["p1190"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
