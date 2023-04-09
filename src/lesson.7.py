@@ -195,6 +195,8 @@ invalid_cols = ['lanes', 'maxspeed', 'name', 'oneway', 'osmid']
 for col in invalid_cols:
     edges_proj[col] = edges_proj[col].astype(str)
 
+edges_proj
+#%%
 edges_proj.to_file(streets_out)
 route_geom.to_file(route_out)
 nodes_proj.to_file(nodes_out)
